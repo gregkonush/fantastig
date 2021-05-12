@@ -1,0 +1,42 @@
+{
+  "name": "fantastig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "ts-node": "ts-node --compiler-options '{\"module\":\"CommonJS\"}'"
+  },
+  "dependencies": {
+    "@fontsource/nunito": "^4.3.0",
+    "@fontsource/parisienne": "^4.3.0",
+    "@prisma/client": "^2.22.1",
+    "framer-motion": "^4.1.16",
+    "next": "^10.2.0",
+    "next-auth": "^3.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.3",
+    "@types/react": "^17.0.5",
+    "@types/styled-components": "^5.1.9",
+    "pg": "^8.6.0",
+    "prettier": "^2.3.0",
+    "prisma": "^2.22.1",
+    "tailwindcss": "^2.1.2",
+    "ts-node": "^9.1.1",
+    "twin.macro": "^2.4.1",
+    "typescript": "^4.2.4"
+  }
+}
